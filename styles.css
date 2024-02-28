@@ -1,0 +1,91 @@
+@font-face {
+			font-family: 'HyliaSerif';
+			src: url('HyliaSerif.otf') format('otf');
+		}
+		
+        body {
+            font-family: 'HyliaSerif', serif;
+            text-align: center;
+			color: white;
+			background-image: url('bg.png');
+            background-size: 25%;
+            background-position: center;
+            background-repeat: repeat;
+        }
+
+        h1 {
+		font-family: 'HyliaSerif', serif;
+            color: white;
+        }
+		
+		#armor-sets {
+			column-count: 2;
+			column-gap: 20px;
+		}
+
+		#armor-sets:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+        .armor-set-details > summary {
+			background-color: #49D59C;
+			color: white;
+			padding: 10px;
+			cursor: pointer;
+			page-break-inside: avoid;
+			break-inside: avoid;
+			margin-bottom: 6px;
+		}
+		
+		.armor-set-details[open] {
+			break-inside: avoid; /* Prevent breaks inside opened armor set details */
+		}
+		
+		.armor-piece-fieldset {
+			background-color: rgba(246, 215, 84, 0.5);
+			page-break-inside: avoid;
+			break-inside: avoid;
+			width: 100%;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+		}
+
+        .checkbox-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .armor-level-checkbox {
+            flex: 0 0 24%;
+            margin-right: 10px;
+        }
+
+        .include-piece-checkbox {
+            margin-right: 5px;
+        }
+		
+		#total-cost,
+		#total-materials ul {
+			background-color: rgba(246, 215, 84, 0.5)
+		}
+
+        .materials-list {
+            list-style: none;
+            padding: 0;
+            margin-top: 5px;
+        }
+
+        .material-item {
+            margin-bottom: 5px;
+        }
+
+        .three-columns {
+            column-count: 3;
+            column-gap: 20px;
+        }
+
+        #total-materials {
+            margin-top: 20px;
+        }
