@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'HyliaSerif';
+    src: url('HyliaSerif.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Rodin';
+    src: url('FOT-Rodin.woff') format('woff');
+}
+
+body {
+    font-family: 'HyliaSerif', sans-serif;
+    text-align: center;
+    color: white;
+    background: url('bg.jpg') center/cover no-repeat fixed;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'HyliaSerif';
+    margin-bottom: 10px;
+    color: white;
+    text-shadow: 0px 0px 6px black;
+}
+
+.setContainer {
+    width: 45%;
+    margin: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media (max-width: 600px) {
+    .setContainer {
+        width: 100%;
+    }
+}
+
+.armorSet {
+    width: 45%;
+    margin: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.piece-checkbox {
+    margin: 5px 0;
+    vertical-align: middle;
+	font-family: "HyliaSerif";
+}
+
+.piece-checkbox + label {
+    margin-left: 5px;
+    cursor: pointer;
+	margin: 5px 0;
+    vertical-align: middle;
+	font-family: "HyliaSerif";
+}
+
+@media (max-width: 600px) {
+    .armorSet {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+.armorSet h2 {
+    background-color: #FFFCE4;
+    color: #21221B;
+    padding: 10px;
+    margin: 0;
+    cursor: pointer;
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+.armorSet h2:hover {
+    background-color: #E2E2C4;
+}
+
+.armorOutput {
+    font-family: 'Rodin', sans-serif;
+    font-style: italic;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    border: solid silver 1px;
+}
+
+.setHeader {
+    font-family: 'HyliaSerif';
+    display: inline-block;
+    background: #008CA5;
+    width: 100%;
+    padding-left: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.setHeader:hover {
+    background: #007388;
+}
+
+.setDetails {
+    background: rgba(155, 92, 67, 0.75);
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease;
+}
+
+.setToggle {
+    position: absolute;
+    visibility: hidden;
+}
+
+.setToggle:checked ~ .setDetails {
+    max-height: 300px;
+}
+
+.setDetails table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+input[type=checkbox]:hover {
+    width: 16px;
+    height: 16px;
+}
+
+.item {
+    display: inline-block;
+}
+
+.item:hover {
+    box-shadow: 0px 0px 1px 0.5px goldenrod;
+}
+
+.item:active {
+    box-shadow: 0px 0px 5px 0.5px black;
+}
+
+h3 {
+    font-family: 'HyliaSerif';
+	font-size: 24px;
+    background: rgba(0, 0, 0, 0.75);
+    border: solid silver 1px;
+    border-bottom: none;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 8px;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+
+#result {
+    font-family: 'Rodin', sans-serif;
+    font-style: italic;
+    background: rgba(0, 0, 0, 0.75);
+    border: solid silver 1px;
+    border-top: none;
+    padding: 8px;
+    width: 80%;
+    margin: auto;
+    columns: 3;
+    min-width: 300px;
+    box-sizing: border-box;
+}
