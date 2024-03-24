@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
             upgradeMaterials: [[{ material: "Bokoblin Horn", qty: 5 }], [{ material: "Blue Bokoblin Horn", qty: 5 }, { material: "Bokoblin Fang", qty: 3 }], [{ material: "Amber", qty: 20 }, { material: "Black Bokoblin Horn", qty: 5 }, { material: "Bokoblin Guts", qty: 3 }], [{ material: "Amber", qty: 30 }, { material: "Bokoblin Guts", qty: 5 }, { material: "Silver Bokoblin Horn", qty: 5 }]]
         }, {
 			name: "Vah Ruta Divine Helm",
-			pieces: [{ type: "Head", piece: "", upgrades: null}],
+			pieces: [{ type: "Head", piece: "Vah Ruta Divine Helm", upgrades: null}],
 			upgradeMaterials: [[{ material: "Opal", qty: 5 }, { material: "Zonaite", qty: 5 }], [{ material: "Opal", qty: 10 }, { material: "Zonaite", qty: 10 }], [{ material: "Dazzlefruit", qty: 5 }, { material: "Large Zonaite", qty: 5 }, { material: "Opal", qty: 15 }], [{ material: "Dazzlefruit", qty: 10 }, { material: "Large Zonaite", qty: 10 }, { material: "Opal", qty: 25 }]]
 		}, {
             name: "Soldier's Set",
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
             upgradeMaterials: [[{ material: "Bokoblin Guts", qty: 3 }, { material: "Chuchu Jelly", qty: 5 }], [{ material: "Keese Eyeball", qty: 5 }, { material: "Moblin Guts", qty: 3 }], [{ material: "Flint", qty: 30 }, { material: "Hinox Guts", qty: 3 }, { material: "Lizalfos Tail", qty: 3 }], [{ material: "Amber", qty: 30 }, { material: "Lynel Guts", qty: 5 }, { material: "Lynel Hoof", qty: 5 }]]
         }, {
 			name: "Vah Naboris Divine Helm",
-			pieces: [{ type: "Head", piece: "", upgrades: null}],
+			pieces: [{ type: "Head", piece: "Vah Naboris Divine Helm"", upgrades: null}],
 			upgradeMaterials: [[{ material: "Topaz", qty: 1 }, { material: "Zonaite", qty: 5 }], [{ material: "Topaz", qty: 4 }, { material: "Zonaite", qty: 10 }], [{ material: "Dazzlefruit", qty: 5 }, { material: "Large Zonaite", qty: 5 }, { material: "Topaz", qty: 6 }], [{ material: "Dazzlefruit", qty: 10 }, { material: "Large Zonaite", qty: 10 }, { material: "Topaz", qty: 10 }]]
 		}, {
             name: "Snowquill Set",
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
             upgradeMaterials: [[{ material: "Moblin Horn", qty: 3 }], [{ material: "Fireproof Lizard", qty: 5 }, { material: "Moblin Fang", qty: 5 }], [{ material: "Blue Moblin Horn", qty: 5 }, { material: "Flint", qty: 15 }, { material: "Smotherwing Butterfly", qty: 3 }], [{ material: "Black Moblin Horn", qty: 5 }, { material: "Flint", qty: 30 }, { material: "Smotherwing Butterfly", qty: 5 }]]
         }, {
 			name: "Diamond Circlet",
-			pieces: [{ type: "Head", piece: "", upgrades: null}],
+			pieces: [{ type: "Head", piece: "Diamond Circlet", upgrades: null}],
 			upgradeMaterials: [[{ material: "Diamond", qty: 2 }, { material: "Flint", qty: 3 }], [{ material: "Diamond", qty: 3 }, { material: "Flint", qty: 5 }], [{ material: "Diamond", qty: 5 }, { material: "Star Fragment", qty: 1 }], [{ material: "Diamond", qty: 8 }, { material: "Star Fragment", qty: 2 }]]
 		}, {
             name: "Zora Set",
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
             upgradeMaterials: [[{ material: "Lizalfos Horn", qty: 3 }], [{ material: "Hyrule Bass", qty: 5 }, { material: "Lizalfos Talon", qty: 5 }], [{ material: "Blue Lizalfos Horn", qty: 5 }, { material: "Hearty Bass", qty: 3 }, { material: "Lizalfos Tail", qty: 3 }], [{ material: "Black Lizalfos Horn", qty: 5 }, { material: "Blue Lizalfos Tail", qty: 5 }, { material: "Opal", qty: 20 }]]
         }, {
 			name: "Ruby Circlet",
-			pieces: [{ type: "Head", piece: "", upgrades: null}],
+			pieces: [{ type: "Head", piece: "Ruby Circlet", upgrades: null}],
 			upgradeMaterials: [[{ material: "Flint", qty: 3 }, { material: "Ruby", qty: 2 }], [{ material: "Flint", qty: 5 }, { material: "Ruby", qty: 4 }], [{ material: "Ruby", qty: 6 }, { material: "Star Fragment", qty: 1 }], [{ material: "Ruby", qty: 10 }, { material: "Star Fragment", qty: 2 }]]
 		}, {
             name: "Desert Voe Set",
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
             upgradeMaterials: [[{ material: "White Chuchu Jelly", qty: 3 }], [{ material: "Cool Safflina", qty: 3 }, { material: "White Chuchu Jelly", qty: 5 }], [{ material: "Chillshroom", qty: 5 }, { material: "Ice Keese Wing", qty: 5 }, { material: "Ice-Breath Lizalfos Tail", qty: 3 }], [{ material: "Ice-Breath Lizalfos Horn", qty: 5 }, { material: "Ice-Breath Lizalfos Tail", qty: 10 }, { material: "Sapphire", qty: 5 }]]
         }, {
 			name: "Sapphire Circlet",
-			pieces: [{ type: "Head", piece: "", upgrades: null}],
+			pieces: [{ type: "Head", piece: "Sapphire Circlet", upgrades: null}],
 			upgradeMaterials: [[{ material: "Flint", qty: 3 }, { material: "Sapphire", qty: 2 }], [{ material: "Flint", qty: 5 }, { material: "Sapphire", qty: 4 }], [{ material: "Sapphire", qty: 6 }, { material: "Star Fragment", qty: 1 }], [{ material: "Sapphire", qty: 10 }, { material: "Star Fragment", qty: 2 }]]
 		}, {
             name: "Rubber Set",
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
             upgradeMaterials: [[{ material: "Electric Lizalfos Horn", qty: 1 }, { material: "Yellow Chuchu Jelly", qty: 3 }], [{ material: "Voltfruit", qty: 5 }, { material: "Yellow Chuchu Jelly", qty: 8 }], [{ material: "Electric Lizalfos Horn", qty: 5 }, { material: "Electric Safflina", qty: 8 }, { material: "Zapshroom", qty: 5 }], [{ material: "Electric Lizalfos Horn", qty: 5 }, { material: "Electric Lizalfos Tail", qty: 8 }, { material: "Topaz", qty: 5 }]]
         }, {
 			name: "Topaz Earrings",
-			pieces: [{ type: "Head", piece: "", upgrades: null}],
+			pieces: [{ type: "Head", piece: "Topaz Earrings", upgrades: null}],
 			upgradeMaterials: [[{ material: "Flint", qty: 3 }, { material: "Topaz", qty: 2 }], [{ material: "Flint", qty: 5 }, { material: "Topaz", qty: 4 }], [{ material: "Star Fragment", qty: 1 }, { material: "Topaz", qty: 6 }], [{ material: "Star Fragment", qty: 2 }, { material: "Topaz", qty: 10 }]]
 		}, {
             name: "Stealth Set",
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
             upgradeMaterials: [[{ material: "Blue Nightshade", qty: 3 }], [{ material: "Blue Nightshade", qty: 5 }, { material: "Sunset Firefly", qty: 5 }], [{ material: "Silent Shroom", qty: 8 }, { material: "Sneaky River Snail", qty: 5 }, { material: "Sticky Frog", qty: 5 }], [{ material: "Silent Princess", qty: 5 }, { material: "Stealthfin Trout", qty: 10 }, { material: "Sundelion", qty: 10 }]]
         }, {
 			name: "Opal Earrings",
-			pieces: [{ type: "Head", piece: "", upgrades: null}],
+			pieces: [{ type: "Head", piece: "Opal Earrings", upgrades: null}],
 			upgradeMaterials: [[{ material: "Flint", qty: 5 }, { material: "Opal", qty: 6 }], [{ material: "Flint", qty: 10 }, { material: "Opal", qty: 12 }], [{ material: "Flint", qty: 15 }, { material: "Opal", qty: 18 }], [{ material: "Flint", qty: 25 }, { material: "Opal", qty: 30 }]]
 		}, {
             name: "Climber's Set",
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
             upgradeMaterials: [[{ material: "Keese Wing", qty: 3 }, { material: "Rushroom", qty: 3 }], [{ material: "Electric Keese Wing", qty: 5 }, { material: "Hightail Lizard", qty: 5 }], [{ material: "Hot-Footed Frog", qty: 10 }, { material: "Ice Keese Wing", qty: 8 }], [{ material: "Fire Keese Wing", qty: 10 }, { material: "Swift Violet", qty: 20 }]]
         }, {
 			name: "Amber Earrings",
-			pieces: [{ type: "Head", piece: "", upgrades: null}],
+			pieces: [{ type: "Head", piece: "Amber Earrings", upgrades: null}],
 			upgradeMaterials: [[{ material: "Amber", qty: 10 }, { material: "Flint", qty: 5 }], [{ material: "Amber", qty: 20 }, { material: "Flint", qty: 10 }], [{ material: "Amber", qty: 35 }, { material: "Flint", qty: 15 }], [{ material: "Amber", qty: 60 }, { material: "Flint", qty: 25 }]]
 		}, {
             name: "Barbarian Set",
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
             upgradeMaterials: [[{ material: "Mighty Thistle", qty: 3 }], [{ material: "Lynel Mace Horn", qty: 2 }, { material: "Lynel Saber Horn", qty: 2 }, { material: "Razorshroom", qty: 5 }], [{ material: "Blue-Maned Lynel Mace Horn", qty: 3 }, { material: "Blue-Maned Lynel Saber Horn", qty: 3 }, { material: "Razorclaw Crab", qty: 3 }], [{ material: "Bladed Rhino Beetle", qty: 3 }, { material: "White-Maned Lynel Mace Horn", qty: 3 }, { material: "White-Maned Lynel Saber Horn", qty: 3 }]]
         }, {
 			name: "Sand Boots",
-			pieces: [{ type: "Legs", piece: "", upgrades: null}],
+			pieces: [{ type: "Legs", piece: "Sand Boots", upgrades: null}],
 			upgradeMaterials: [[{ material: "Hightail Lizard", qty: 3 }], [{ material: "Gibdo Bone", qty: 20 }, { material: "Swift Carrot", qty: 5 }], [{ material: "Gibdo Guts", qty: 5 }, { material: "Molduga Fin", qty: 5 }, { material: "Rushroom", qty: 10 }], [{ material: "Hearty Lizard", qty: 5 }, { material: "Molduga Guts", qty: 5 }, { material: "Swift Violet", qty: 10 }]]
 		}, {
             name: "Radiant Set",
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
             upgradeMaterials: [[{ material: "Bokoblin Guts", qty: 1 }, { material: "Luminous Stone", qty: 10 }], [{ material: "Luminous Stone", qty: 15 }, { material: "Moblin Guts", qty: 2 }], [{ material: "Gibdo Bone", qty: 10 }, { material: "Horriblin Guts", qty: 3 }, { material: "Luminous Stone", qty: 20 }], [{ material: "Luminous Stone", qty: 30 }, { material: "Lynel Guts", qty: 3 }, { material: "Molduga Jaw", qty: 3 }]]
         }, {
 			name: "Snow Boots",
-			pieces: [{ type: "Legs", piece: "", upgrades: null}],
+			pieces: [{ type: "Legs", piece: "Snow Boots", upgrades: null}],
 			upgradeMaterials: [[{ material: "Hightail Lizard", qty: 3 }], [{ material: "Octorok Tentacle", qty: 5 }, { material: "Swift Carrot", qty: 5 }], [{ material: "Octo Balloon", qty: 5 }, { material: "Rushroom", qty: 20 }], [{ material: "Naydra's Scale", qty: 2 }, { material: "Swift Violet", qty: 20 }]]
 		}, {
             name: "Royal Guard Set",
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
             upgradeMaterials: [[{ material: "Bokoblin Guts", qty: 3 }, { material: "Boss Bokoblin Horn", qty: 3}], [{ material: "Blue Boss Bokoblin Horn", qty: 3 }, { material: "Boss Bokoblin Guts", qty: 3 }], [{ material: "Black Boss Bokoblin Horn", qty: 3 }, { material: "Hinox Guts", qty: 3 }], [{ material: "Gleeok Guts", qty: 3 }, { material: "Molduga Guts", qty: 3 }, { material: "Silver Boss Bokoblin Horn", qty: 3 }]]
         }, {
 			name: "Tunic of Memories",
-			pieces: [{ type: "Body", piece: "", upgrades: null}],
+			pieces: [{ type: "Body", piece: "Tunic of Memories", upgrades: null}],
 			upgradeMaterials: [[{ material: "Light Dragon's Scale", qty: 1 }, { material: "Silent Princess", qty: 3 }], [{ material: "Light Dragon's Talon", qty: 1 }, { material: "Silent Princess", qty: 3 }], [{ material: "Shard of Light Dragon's Fang", qty: 1 }, { material: "Silent Princess", qty: 5 }], [{ material: "Light Dragon's Horn", qty: 1 }, { material: "Silent Princess", qty: 10 }]],
 			individual: {
 			  l2Body: [{ material: "Farosh's Horn", qty: 2 }],
@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function () {
             upgradeMaterials: [[{ material: "Sticky Lizard", qty: 3 }], [{ material: "Horriblin Horn", qty: 5 }, { material: "Sticky Lizard", qty: 5 }], [{ material: "Blue Horriblin Horn", qty: 5 }, { material: "Sticky Frog", qty: 5 }], [{ material: "Black Horriblin Horn", qty: 5 }, { material: "Horriblin Guts", qty: 10 }, { material: "Opal", qty: 10 }]]
         }, {
 			name: "Champion's Leathers",
-			pieces: [{ type: "Body", piece: "", upgrades: null}],
+			pieces: [{ type: "Body", piece: "Champion's Leathers", upgrades: null}],
 			upgradeMaterials: [[{ material: "Light Dragon's Scale", qty: 2 }, { material: "Silent Princess", qty: 3 }], [{ material: "Light Dragon's Talon", qty: 2 }, { material: "Silent Princess", qty: 3 }, { material: "Sundelion", qty: 10 }], [{ material: "Shard of Light Dragon's Fang", qty: 2 }, { material: "Silent Princess", qty: 5 }, { material: "Sundelion", qty: 15 }], [{ material: "Light Dragon's Horn", qty: 2 }, { material: "Silent Princess", qty: 10 }, { material: "Sundelion", qty: 20 }]],
 		}, {
             name: "Glide Set",
@@ -195,7 +195,7 @@ document.addEventListener("DOMContentLoaded", function () {
             upgradeMaterials: [[{ material: "Star Fragment", qty: 1 }, { material: "Topaz", qty: 1 }], [{ material: "Star Fragment", qty: 1 }, { material: "Topaz", qty: 4 }], [{ material: "Star Fragment", qty: 1 }, { material: "Topaz", qty: 6 }], [{ material: "Star Fragment", qty: 1 }, { material: "Topaz", qty: 10 }]]
         }, {
 			name: "Vah Medoh Divine Helm",
-			pieces: [{ type: "Head", piece: "", upgrades: null}],
+			pieces: [{ type: "Head", piece: "Vah Medoh Divine Helm", upgrades: null}],
 			upgradeMaterials: [[{ material: "Sapphire", qty: 1 }, { material: "Zonaite", qty: 5 }], [{ material: "Sapphire", qty: 4 }, { material: "Zonaite", qty: 10 }], [{ material: "Dazzlefruit", qty: 5 }, { material: "Large Zonaite", qty: 5 }, { material: "Sapphire", qty: 6 }], [{ material: "Dazzlefruit", qty: 10 }, { material: "Large Zonaite", qty: 10 }, { material: "Sapphire", qty: 10 }]]
 		}, {
             name: "Set of the Sky",
@@ -203,15 +203,15 @@ document.addEventListener("DOMContentLoaded", function () {
             upgradeMaterials: [[{ material: "Sapphire", qty: 1 }, { material: "Star Fragment", qty: 1 }], [{ material: "Sapphire", qty: 4 }, { material: "Star Fragment", qty: 1 }], [{ material: "Sapphire", qty: 6 }, { material: "Star Fragment", qty: 1 }], [{ material: "Sapphire", qty: 10 }, { material: "Star Fragment", qty: 1 }]]
         }, {
 			name: "Vah Rudania Divine Helm",
-			pieces: [{ type: "Head", piece: "", upgrades: null}],
+			pieces: [{ type: "Head", piece: "Vah Rudania Divine Helm", upgrades: null}],
 			upgradeMaterials: [[{ material: "Ruby", qty: 1 }, { material: "Zonaite", qty: 5 }], [{ material: "Ruby", qty: 4 }, { material: "Zonaite", qty: 10 }], [{ material: "Dazzlefruit", qty: 5 }, { material: "Large Zonaite", qty: 5 }, { material: "Ruby", qty: 6 }], [{ material: "Dazzlefruit", qty: 10 }, { material: "Large Zonaite", qty: 10 }, { material: "Ruby", qty: 10 }]]
 		}, {
 			name: "Sheik's Mask",
-			pieces: [{ type: "Head", piece: "", upgrades: null}],
+			pieces: [{ type: "Head", piece: "Sheik's Mask", upgrades: null}],
 			upgradeMaterials: [[{ material: "Silent Princess", qty: 1 }, { material: "Star Fragment", qty: 1 }], [{ material: "Silent Princess", qty: 2 }, { material: "Star Fragment", qty: 2 }], [{ material: "Silent Princess", qty: 4 }, { material: "Star Fragment", qty: 3 }], [{ material: "Silent Princess", qty: 8 }, { material: "Star Fragment", qty: 4 }]]
 		}, {
 			name: "Ancient Hero's Aspect",
-			pieces: [{ type: "Body", piece: "", upgrades: null}],
+			pieces: [{ type: "Head", piece: "Ancient Hero's Aspect", upgrades: null}],
 			upgradeMaterials: [[{ material: "Hinox Guts", qty: 9 }, { material: "Silver Bokoblin Horn", qty: 9 }, { material: "Zonaite", qty: 15 }], [{ material: "Frox Guts", qty: 9 }, { material: "Large Zonaite", qty: 10 }, { material: "Silver Moblin Horn", qty: 9 }], [{ material: "Large Zonaite", qty: 15 }, { material: "Molduga Guts", qty: 9 }, { material: "Silver Lizalfos Horn", qty: 9 }], [{ material: "Gleeok Guts", qty: 9 }, { material: "Silver Lynel Mace Horn", qty: 9 }, { material: "Silver Lynel Saber Horn", qty: 9 }]]
 		}];
 
