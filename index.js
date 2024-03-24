@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
             upgradeMaterials: [[{ material: "Bokoblin Guts", qty: 3 }, { material: "Chuchu Jelly", qty: 5 }], [{ material: "Keese Eyeball", qty: 5 }, { material: "Moblin Guts", qty: 3 }], [{ material: "Flint", qty: 30 }, { material: "Hinox Guts", qty: 3 }, { material: "Lizalfos Tail", qty: 3 }], [{ material: "Amber", qty: 30 }, { material: "Lynel Guts", qty: 5 }, { material: "Lynel Hoof", qty: 5 }]]
         }, {
 			name: "Vah Naboris Divine Helm",
-			pieces: [{ type: "Head", piece: "Vah Naboris Divine Helm"", upgrades: null}],
+			pieces: [{ type: "Head", piece: "Vah Naboris Divine Helm", upgrades: null}],
 			upgradeMaterials: [[{ material: "Topaz", qty: 1 }, { material: "Zonaite", qty: 5 }], [{ material: "Topaz", qty: 4 }, { material: "Zonaite", qty: 10 }], [{ material: "Dazzlefruit", qty: 5 }, { material: "Large Zonaite", qty: 5 }, { material: "Topaz", qty: 6 }], [{ material: "Dazzlefruit", qty: 10 }, { material: "Large Zonaite", qty: 10 }, { material: "Topaz", qty: 10 }]]
 		}, {
             name: "Snowquill Set",
