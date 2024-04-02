@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		}, {
             name: "Rubber Set",
 			pieces: [{ type: "Head", piece: "Rubber Helm", upgrades: null }, { type: "Body", piece: "Rubber Armor", upgrades: null }, { type: "Legs", piece: "Rubber Tights", upgrades: null }],
-            upgradeMaterials: [[{ material: "Electric Lizalfos Horn", qty: 1 }, { material: "Yellow Chuchu Jelly", qty: 3 }], [{ material: "Voltfruit", qty: 5 }, { material: "Yellow Chuchu Jelly", qty: 8 }], [{ material: "Electric Lizalfos Horn", qty: 5 }, { material: "Electric Safflina", qty: 8 }, { material: "Zapshroom", qty: 5 }], [{ material: "Electric Lizalfos Horn", qty: 5 }, { material: "Electric Lizalfos Tail", qty: 8 }, { material: "Topaz", qty: 5 }]]
+            upgradeMaterials: [[{ material: "Electric Lizalfos Horn", qty: 1 }, { material: "Yellow Chuchu Jelly", qty: 3 }], [{ material: "Voltfruit", qty: 5 }, { material: "Yellow Chuchu Jelly", qty: 8 }], [{ material: "Electric Lizalfos Tail", qty: 5 }, { material: "Electric Safflina", qty: 8 }, { material: "Zapshroom", qty: 5 }], [{ material: "Electric Lizalfos Horn", qty: 5 }, { material: "Electric Lizalfos Tail", qty: 8 }, { material: "Topaz", qty: 5 }]]
         }, {
 			name: "Topaz Earrings",
 			pieces: [{ type: "Head", piece: "Topaz Earrings", upgrades: null}],
@@ -215,7 +215,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			upgradeMaterials: [[{ material: "Hinox Guts", qty: 9 }, { material: "Silver Bokoblin Horn", qty: 9 }, { material: "Zonaite", qty: 15 }], [{ material: "Frox Guts", qty: 9 }, { material: "Large Zonaite", qty: 10 }, { material: "Silver Moblin Horn", qty: 9 }], [{ material: "Large Zonaite", qty: 15 }, { material: "Molduga Guts", qty: 9 }, { material: "Silver Lizalfos Horn", qty: 9 }], [{ material: "Gleeok Guts", qty: 9 }, { material: "Silver Lynel Mace Horn", qty: 9 }, { material: "Silver Lynel Saber Horn", qty: 9 }]]
 		}];
 
-                // Assign the upgradeMaterials array to each piece based on the set's upgradeMaterials
+        // Assign the upgradeMaterials array to each piece based on the set's upgradeMaterials
         for (var i = 0; i < armor.length; i++) {
             armor[i].pieces.forEach(piece => {
                 piece.upgrades = armor[i].upgradeMaterials;
